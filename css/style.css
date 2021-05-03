@@ -1,0 +1,209 @@
+/*=========================================================
+Common Css
+==========================================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  height: fit-content;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #f5a256;
+  --pure: #fff;
+  --dark: #000;
+}
+
+/*=========================================================
+Texts Css
+==========================================================*/
+
+h1 {
+  font-family: "Oswald";
+  font-size: 60px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Oswald";
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "poppins";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a {
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--pure);
+}
+
+.btn-primary:hover a {
+  color: var(--dark);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border: 3px solid var(--primary);
+}
+
+.btn-primary:hover {
+  color: var(--dark);
+  background-color: transparent;
+  border: 3px solid var(--primary);
+  text-decoration: none;
+}
+
+/*=========================================================
+Navbar Css
+==========================================================*/
+nav {
+  z-index: 111;
+}
+
+/*=========================================================
+header Css
+==========================================================*/
+
+header {
+  padding: 100px 50px;
+}
+
+header .hero-img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*=========================================================
+Popular Product Css
+==========================================================*/
+.popular-product {
+  padding: 100px 0;
+}
+
+.popular-product .product-small {
+  width: 275px;
+  height: 285px;
+  object-fit: cover;
+}
+
+.popular-product .product-big {
+  width: 560px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.popular-product .btn-primary {
+  padding: 10px 20px;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  margin-top: 40px;
+}
+
+/*=========================================================
+Useing Heavy Comfortable Css
+==========================================================*/
+
+.heavy-comfortable {
+  padding: 70px 20px;
+}
+
+.heavy-comfortable .img-3 {
+  height: 620px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*=========================================================
+Brands Section Css
+==========================================================*/
+
+.brands {
+  padding: 70px 20px;
+}
+
+.brands .brand-img {
+  width: 170px;
+  height: 30px;
+  object-fit: cover;
+}
+
+/*=========================================================
+Subscribe Your Newslatter Section Css
+==========================================================*/
+
+.subscribe {
+  padding: 200px 20px;
+}
+
+.subscribe form .input {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--primary);
+}
+
+.subscribe form i {
+  font-size: 30px;
+  padding: 5px 40px;
+}
+
+.subscribe form .btn-primary {
+  margin-left: -20px;
+  margin-top: 1px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe form .btn-primary:hover {
+  background-color: var(--primary);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*=========================================================
+Footer Section Css
+==========================================================*/
+
+footer {
+  background-color: rgb(241, 241, 241);
+  padding: 100px 10px;
+}
+
+footer i {
+  font-size: 25px;
+  color: rgb(209, 209, 209);
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+footer i:hover {
+  color: var(--primary);
+}
